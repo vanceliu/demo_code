@@ -1,0 +1,12 @@
+profiles: local
+server:
+  contextPath: /version-info
+  host: 0.0.0.0
+  port: 46010
+
+eyesmedia:
+  locale: zh_TW
+  localTimeZone: Asia/Taipei
+  api:
+    path-name: api
+    version: v1

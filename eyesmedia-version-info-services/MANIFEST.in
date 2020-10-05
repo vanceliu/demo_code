@@ -1,0 +1,12 @@
+include README.MD
+include CHANGELOG.md
+include bootstrap.yml
+include application.yml
+include application-local.yml
+include logging.yml
+include messages.properties
+include requirements.txt
+include start.py
+include start.sh
+recursive-exclude tests *
+recursive-exclude pyreleaseplugin *
